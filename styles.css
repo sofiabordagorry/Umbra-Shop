@@ -241,8 +241,9 @@ display: flex;
 #sobre {
     font-size: 25px;
     padding-top: 120px;
+    padding-left: 50px;
     margin: 120px 0;
-    align-items: left;
+    align-items: center;
     background: linear-gradient(90deg, rgba(176, 186, 134, 1), rgba(154, 177, 141, 1))
 }
 
@@ -258,6 +259,7 @@ display: flex;
 /* Productos */
 
 #productos {
+       padding-left: 50px;
     padding-top: 120px;
     margin: 120px 0;
     z-index: -1;
@@ -286,6 +288,8 @@ display: flex;
     text-align: left;
     padding-top: 120px;
     background: linear-gradient(90deg, rgba(176, 186, 134, 1), rgba(154, 177, 141, 1));
+       padding-left: 50px;
+
 }
 
 #ubicacion p {
