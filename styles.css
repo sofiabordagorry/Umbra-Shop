@@ -240,10 +240,9 @@ display: flex;
 
 #sobre {
     font-size: 25px;
-    padding-left: 50px;
     padding-top: 120px;
     margin: 120px 0;
-    align-items: right;
+    align-items: left;
     background: linear-gradient(90deg, rgba(176, 186, 134, 1), rgba(154, 177, 141, 1))
 }
 
