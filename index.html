@@ -13,18 +13,21 @@
 
 <body>
     <div id="page-wrapper">
-        <header id="header">
-            <div class="logo">
-                <img id="header-img" src="./images/Logo UmbraShop.jpg" alt="logo" />
-            </div>
-            <nav id="nav-bar">
-                <ul class="menu">
-                    <li><a class="nav-link" href="#sobre">Sobre Umbra Shop</a></li>
-                    <li><a class="nav-link" href="#productos">Productos</a></li>
-                    <li><a class="nav-link" href="#ubicacion">Dónde encontrarme</a></li>
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="index.html" id="navbar__logo"><img id="logo" src="./images/Logo UmbraShop.jpg" />Umbra Shop</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                    <li class="navbar__item"><a class="nav-link" href="#sobre">Sobre Umbra Shop</a></li>
+                    <li class="navbar__item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="navbar__item"><a class="nav-link" href="#ubicacion">Dónde encontrarme</a></li>
                 </ul>
+                </div>
             </nav>
-        </header>
         <div class="hero" id="home">
             <div class="hero__container">
                 <h1 class="hero__heading">Umbra Shop</h1>
@@ -88,6 +91,6 @@
             <span>Copyright 2023, Umbra Shop</span>
         </footer>
     </div>
+    <script src="menu.js"></script>
 </body>
-
 </html>
