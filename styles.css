@@ -260,6 +260,8 @@ display: flex;
 
 #productos {
     padding-top: 120px;
+       padding-left: 50px;
+    align-ittems: right;
     margin: 120px 0;
     z-index: -1;
     text-align: right;
@@ -283,6 +285,8 @@ display: flex;
 /* Donde encontrarme */
 
 #ubicacion {
+     padding-left: 50px;
+    align-ittems: right;
     font-size: 25px;
     text-align: left;
     padding-top: 120px;
