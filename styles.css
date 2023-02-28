@@ -133,7 +133,6 @@ display: flex;
     border: none;
     margin-top: 2rem;
     cursor: pointer;
-    /* position relative porque vamos a ponerle un hover */
     position: relative;
     transition: all 0.35s;
     outline: none;
@@ -167,10 +166,7 @@ display: flex;
 }
 
 .main {
-    /* background-color: #131313; */
-
     background-size: 300%;
-    /* animation: gradient 13s ease infinite; */
     background-attachment: fixed;
     padding: 3rem 0;
 }
